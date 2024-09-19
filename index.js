@@ -3,7 +3,7 @@
 
       // Function to add a task
       function addTask() {
-        const taskValue = document.getElementById("input-value.value");
+        const taskValue = document.getElementById("input-value").value;
 
         if (taskValue !== "") {
           taskCount++;
